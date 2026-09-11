@@ -1,0 +1,9 @@
+{
+  "name": "חומר לניוזלטר",
+  "short_name": "ניוזלטר",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f6f1",
+  "theme_color": "#174f43"
+}
+

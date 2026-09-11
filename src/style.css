@@ -1,0 +1,17 @@
+:root { font-family: Arial, sans-serif; color: #10221d; background: #f6f6f1; }
+* { box-sizing: border-box; }
+html, body { margin: 0; min-width: 0; overflow-x: hidden; }
+body { min-height: 100vh; }
+.shell { width: min(100%, 720px); min-width: 0; margin: 0 auto; padding: 48px 20px; }
+.eyebrow { margin: 0; color: #438675; font-size: .8rem; font-weight: 700; letter-spacing: .08em; direction: ltr; text-align: right; }
+h1 { margin: 8px 0 12px; font-size: clamp(2rem, 8vw, 3rem); }
+h2 { font-size: 1.1rem; margin: 36px 0 12px; }
+.intro { color: #53635e; line-height: 1.7; }
+.connections { display: grid; gap: 12px; }
+.connection, .next { min-width: 0; width: 100%; max-width: 100%; background: #fff; border: 1px solid #dce4df; border-radius: 16px; padding: 16px; }
+.connection { display: flex; align-items: center; gap: 14px; }
+.connection span { flex: 0 0 auto; display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: #dff1e8; color: #174f43; font-weight: 700; }
+h3, .connection p, .next p { margin: 0; overflow-wrap: anywhere; }
+.connection p, .next p { margin-top: 4px; color: #53635e; line-height: 1.55; }
+code { direction: ltr; unicode-bidi: embed; }
+
